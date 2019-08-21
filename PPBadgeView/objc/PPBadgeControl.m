@@ -57,7 +57,7 @@
     [self addSubview:self.imageView];
     [self addSubview:self.textLabel];
     [self addLayoutWith:self.imageView leading:0 trailing:0];
-    [self addLayoutWith:self.textLabel leading:5 trailing:-5];
+    [self addLayoutWith:self.textLabel leading:3 trailing:-3];
 }
 
 - (void)addLayoutWith:(UIView *)view leading:(CGFloat)leading trailing:(CGFloat)trailing
